@@ -1,0 +1,22 @@
+[data-theme="light"] {
+  ---bg-color: #ffffff;
+  ---text-color: #333333;
+  ---heading-color: #444444;
+  /* ---tableborder-color: #ffffff; */
+
+}
+[data-theme="dark"] {
+  ---bg-color: #333333;
+  ---text-color: #ffffff;
+  ---heading-color: #dddddd;
+  /* ---tableborder-color: #333333; */
+
+}
+body {
+  background-color: var(---bg-color);
+}
+.product__table{
+  /* border-color: var(---tableborder-color); */
+  color: var(---text-color);
+  background: var(---bg-color);
+}
